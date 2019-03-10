@@ -160,7 +160,7 @@ p {
 /* Home Info */
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -200,6 +200,11 @@ p {
     min-height: 100%;
 }
 
+#about-info .info-left .text-primary {
+    display: block;
+    line-height: 3.2rem;
+}
+
 #about-info .info-right {
     float: right;
     width: 50%;
@@ -216,7 +221,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../img/prep-side5.jpg') no-repeat
     center center/cover;
     padding-top: 100px;
